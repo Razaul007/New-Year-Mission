@@ -1,0 +1,32 @@
+.banner {
+    background-color: linear-gradient;
+    background-image: url('../images/Banner\ Image.png');
+
+}
+
+.banner-Greeting {
+    color: #FFF;
+    text-align: center;
+    font-family: Merriweather;
+    font-size: 32px;
+    font-weight: 400;
+}
+
+.banner-title {
+    color: white;
+    text-align: center;
+    font-family: Merriweather;
+    font-size: 72px;
+    font-weight: 900;
+    line-height: 95px;
+    /* 131.944% */
+}
+
+.header {
+    color: blue
+    text-align: center;
+    font-family: Inter;
+    font-size: 88px;
+    font-weight: 700;
+
+}
