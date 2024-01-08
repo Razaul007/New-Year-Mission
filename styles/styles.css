@@ -4,9 +4,11 @@
     background-repeat: no-repeat;
     flex-shrink: 0;
     border-radius: 16px;
-    width: 1600px;
-    height: 7335px;
-    margin: 50px 140px;
+    width: 90%;
+    height: 600px;
+    margin-top: 50px;
+    margin-left: 75px;
+    margin-right: 140px;
 }
 
 .banner-Greeting {
@@ -15,6 +17,7 @@
     font-family: Merriweather;
     font-size: 32px;
     font-weight: 400;
+    padding-top: 227px;
 }
 
 .banner-title {
@@ -24,7 +27,6 @@
     font-size: 72px;
     font-weight: 900;
     line-height: 95px;
-    /* 131.944% */
 }
 
 .header {
@@ -33,6 +35,84 @@
     font-family: Inter;
     font-size: 88px;
     font-weight: 700;
-    margin-left: 88px;
-    margin-right: 107px;
+    margin-top: 70px;
+    margin-bottom: 48px;
+}
+
+.para {
+    color: #F00;
+    text-align: center;
+    font-family: Inter;
+    font-size: 24px;
+    font-weight: 500;
+}
+
+.hfive {
+    color: #070211;
+    text-align: center;
+    font-family: Inter;
+    font-size: 48px;
+    font-weight: 700;
+    margin-top: 0px;
+}
+
+.image {
+    margin-left: 398px;
+    margin-right: 398px;
+    width: 802.9px;
+    height: 500px;
+    flex-shrink: 0;
+}
+
+.bannertwo-title {
+    color: #FFF;
+    font-family: Merriweather;
+    font-size: 64px;
+    font-weight: 900;
+    line-height: 88px;
+    letter-spacing: 7.04px;
+    width: 642px;
+    text-align: center;
+}
+
+.bannertwo {
+    background-image: url('../images/Vectorrr.png');
+    background-image: cover;
+    flex-shrink: 0;
+    fill: linear-gradient(90deg, #070211 0%, rgba(7, 2, 17, 0.00) 100%);
+    border-radius: 16px;
+    width: 90%;
+    height: 600px;
+    margin-top: 50px;
+    margin-left: 75px;
+    margin-right: 140px;
+}
+
+.headertwo {
+    width: 642px;
+    padding-top: 126px;
+    padding-right: 552px;
+    padding-bottom: 298px;
+    padding-left: 126px;
+    color: #FFF;
+    font-family: Merriweather;
+    font-size: 64px;
+    font-weight: 900;
+    line-height: 88px;
+    letter-spacing: 7.04px;
+}
+
+.container {
+    position: relative;
+    text-align: center;
+    width: 697px;
+    color: rgba(255, 255, 255, 0.80);
+    font-family: Inter;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 30px;
+    margin-top: -300px;
+    margin-right: 497px;
+    margin-bottom: 214px;
+    margin-left: 126px;
 }
