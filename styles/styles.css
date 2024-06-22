@@ -1,4 +1,4 @@
-.main{
+.main {
     width: 75%;
     max-width: 1440px;
     margin: 0 auto;
@@ -10,10 +10,10 @@
     background-repeat: no-repeat;
     flex-shrink: 0;
     border-radius: 16px;
-    
+
     height: 600px;
     margin-top: 50px;
-  
+
 }
 
 .banner-Greeting {
@@ -62,8 +62,8 @@
 }
 
 .image img {
-   
-   
+
+
     width: 100%;
     height: 500px;
     align-items: center;
@@ -86,30 +86,30 @@
     background-repeat: no-repeat;
     fill: linear-gradient(90deg, #070211 0%, rgba(7, 2, 17, 0.00) 100%);
     border-radius: 16px;
-   
-    
-    
+
+
+
     height: 600px;
     margin-top: 50px;
-   
+
     margin-bottom: 50px;
 
     display: flex;
     align-items: center;
     justify-content: space-around;
-   
-   
+
+
 }
 
 .headertwo {
     width: 642px;
     padding-top: 126px;
-   
+
     color: #FFF;
     font-family: Merriweather;
     font-size: 64px;
     font-weight: 900;
- 
+
 }
 
 .container {
@@ -121,151 +121,215 @@
     font-size: 18px;
     font-weight: 400;
     line-height: 30px;
-    
+
 }
-.bannertwo-text{
+
+.bannertwo-text {
     text-align: center;
 }
-.bannertwo-img{
+
+.bannertwo-img {
     text-align: center;
 }
-.button{
+
+.button {
     width: 125px;
     height: 40px;
     border-radius: 8px;
-    background-color:blue;
+    background-color: blue;
     color: #FFF;
 }
-.join-now{
+
+.join-now {
     background-color: bisque;
-   
+
     height: 400px;
     border-radius: 16px;
     margin: 125px auto;
     align-content: center;
     text-align: center;
-    
+
 }
-.span{
+
+.span {
     color: red;
     font-weight: bold;
 }
-.offers{
+
+.offers {
     display: flex;
     justify-content: space-around;
     justify-items: center;
-   
+
 }
-.offer{
+
+.offer {
     color: #F00;
     font-weight: 600;
 }
-.offer-year{
+
+.offer-year {
     width: 25%;
 }
-.offer-title{
+
+.offer-title {
     font-weight: bold;
 }
-.coming-soon{
+
+.coming-soon {
     width: 25%;
 }
-.coming-soon-text .holyday-text{
+
+.coming-soon-text .holyday-text {
     text-wrap: wrap;
 }
-.offer-img{
-    border:#F00 solid 10px ;
+
+.offer-img {
+    border: #F00 solid 10px;
     width: 250px;
     height: 250px;
     border-radius: calc(100%);
 
-    
+
 }
+
 .offers img {
     margin: 13px;
     width: 225px;
     height: 225px;
     align-items: center;
 }
-.new-year{
-   color: #F00;
-   font-weight: bold;
-   
-   
+
+.new-year {
+    color: #F00;
+    font-weight: bold;
+
+
 }
-.new-year-text{
+
+.new-year-text {
     text-wrap: wrap;
 }
-.holyday-offer{
+
+.holyday-offer {
     background-color: antiquewhite;
-  
+
     padding: 10px;
     border-radius: 16px;
 }
-.holyday-title{
+
+.holyday-title {
     font-family: Inter;
     font-size: 44px;
     font-weight: 700;
-    
+
 }
-.holyday-text{
+
+.holyday-text {
     width: 1068px;
     height: 96px;
 }
-.holyday{
+
+.holyday {
     text-align: center;
 }
-.holyday-img1 img{
-  
-    
+
+.holyday-img1 img {
+
+
 
     width: 33%;
 }
-.holyday-img1{
+
+.holyday-img1 {
     display: flex;
 }
-.holyday-img2 img{
+
+.holyday-img2 img {
     width: 100%;
 }
+
 /* .ima1-group{
     display: flex;
 } */
 /* .img2-group{
     display: flex;
 } */
- .portfolio{
-    margin: 50px auto ;
+.portfolio {
+    margin: 50px auto;
 
- }
- .portfolio img {
+}
+
+.portfolio img {
     width: 33%;
- }
- .title-one{
+}
+
+.title-one {
     color: #F00;
- }
- .portfolio-img1{
+}
+
+.portfolio-img1 {
     display: flex;
     gap: 5px;
     margin: 10px;
- }
- .portfolio-img2{
-    display: flex;
-    gap: 5px;
- }
-.footer {
-    width: 100%;
-    max-width: 1920px;
-    height: 609px;
-    flex-shrink: 0;
-    background: #070211;
-    margin: 25px auto;
 }
 
-.footer-coloum {
+.portfolio-img2 {
     display: flex;
+    gap: 5px;
+}
+
+.footer {
+    width: 100%;
+    max-width: 1600px;
+    height: 400px;
+    flex-shrink: 0;
+    background: #070211;
+    margin: 50px auto;
+    padding: 100px aut0;
+}
+
+.footer-first {
+    display: flex;
+    justify-content: space-around;
     color: #FFF;
     font-family: Inter;
     font-size: 24px;
     font-weight: 500;
     line-height: 40px;
+
     /* 166.667% */
+}
+
+.footer-call {
+    display: flex;
+    justify-content: center;
+    gap: 2px;
+    align-items: center;
+}
+
+.footer img {
+    width: 20px;
+    height: 20px;
+}
+
+.footer-icon {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 5px;
+}
+
+.footer-second {
+    display: flex;
+    justify-content: space-around;
+    color: #FFF;
+    font-family: Inter;
+    font-size: 24px;
+    font-weight: 500;
+    line-height: 40px;
+}
+.hr-line{
+    color: darkslategray;
+    width: 1320px;
 }
