@@ -279,6 +279,33 @@
     gap: 5px;
 }
 
+.newsletter{
+    
+    padding: 122px 0;
+    text-align: center;
+    
+    height: 400px;
+    align-items: center;
+    background-color: blanchedalmond;
+}
+.button1{
+    margin-left: -4px;
+    width: 125px;
+    height: 40px;
+    border-radius: 8px 8px 8px 0;
+    background-color: red;
+    color: #FFF;
+}
+
+.email{
+    width: 40%;
+    height: 40px;
+    border: none;
+    border-radius: 8px;
+    background-color: wheat
+    
+}
+
 .footer {
     width: 100%;
     max-width: 1600px;
